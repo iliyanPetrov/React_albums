@@ -1,0 +1,33 @@
+.cards {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.section_container {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.cards>span {
+    font-size: 1.2em;
+    color: rgb(50, 100, 146);
+    margin: 1rem;
+}
+
+.cards>button {
+    font-size: 1rem;
+    padding: 4px 8px;
+    color: #fff;
+    background-color: #7182e2e8;
+    border: 1px solid rgb(52, 91, 165);
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 1px rgba(95, 97, 102, 0.76);
+}
+.cards>button:active{
+    position:relative;
+    top:2px;
+    left:1px;
+    box-shadow: -1px -1px 3px 1px rgba(95, 97, 102, 0.46);
+}
